@@ -1,1 +1,0 @@
-# bograndadam.github.io
