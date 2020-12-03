@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+
+    <title>Bo Grandadam</title>
+</head>
+
+<script src="./javascript/include-carousels.js"></script>
+
+<body>
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                <i class="fas fa-code fa-2x text-warning pb-3"></i>
+                <h5 class="text-white d-inline pl-2">Portfolio</h5>
+            </div>
+            <div class="col-sm-8 pt-2">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#projects" class="text-white navigation-link">Projects</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#social-media" class="text-white navigation-link">Social Media</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a id=downloadlink href="#resume" class="text-white navigation-link">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main-container">
+        <div class="row main_row">
+            <div class="col-sm-6">
+                <h2 class="text-white">Hello I'm</h2>
+
+                <h1 class="text-warning m-heading">Stephan <br> van Zwienen </h1>
+                <!-- <h1 class="ml-200 text-warning m-heading">van Zwienen</h1> -->
+
+
+                <h2 class="text-white">Software Developer</h2>
+            </div>
+            <div class="col-sm-6">
+                <img src="./images/choose.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container about-me p-5">
+        <div class="row">
+            <div class="col-lg-6 pb-5 align-self-center">
+                <img src="./images/about.svg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 pl-5  text-white">
+                <h1 class="text-warning">About Me</h1>
+                <p>My name is <b class="text-warning">Bo Grandadam</b> and I am a Software Engineering student.
+                    Currently I’m in my 4th year and got all the fundamentals of software engineering down. This include
+                    things like Front-end, Back-end, Architecture, <b class="text-warning">Mobile Development</b> and
+                    DevOps.
+                </p>
+
+                <p>I love building things. From time to time I do my own little personal projects. But I get more
+                    motivated to solve <b class="text-warning">real world problems</b> for real clients. Go and have a
+                    look at
+                    my displayed projects to get a better feel for it.<br><br>
+                    At the moment I’m looking for fun and challenging graduation internship.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="container mt-3 pt5 align-items-center">
+        <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+        <div class="row justify-content-center ">
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top p-2" src="./images/bibozLogo.jpg" alt="Card image cap"
+                        style="height: 13rem">
+                    <div class=" card-body">
+                        <h5 class="card-title">Biboz mvp app</h5>
+                        <p class="card-text">Digitizing a paper tool to an Android app. <b class="text-warning">(work in
+                                progress)</b></p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalBiboz">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top p-2" src="./images/shopApp.svg" alt="Card image cap" style="height: 13rem">
+                    <div class=" card-body">
+                        <h5 class="card-title">Webshop App</h5>
+                        <p class="card-text">Mobile development practice project.</p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal"
+                            data-target="#modalWebshop">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top p-2" src="./images/invalide.svg" alt="Card image cap"
+                        style="height: 13rem">
+                    <div class=" card-body">
+                        <h5 class="card-title">Invalide Parkeren App</h5>
+                        <p class="card-text">Android app for finding nearby disabled parking spaces.</p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal"
+                            data-target="#modalParking">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top p-2" src="./images/explodingView.jpg" alt="Card image cap"
+                        style="height: 13rem">
+                    <div class=" card-body">
+                        <h5 class="card-title">Escape Room puzzel</h5>
+                        <p class="card-text">Invent and realize a Escape Room puzzle.</p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal"
+                            data-target="#modalEscaperoom">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top p-2" src="./images/developer.svg" alt="Card image cap"
+                        style="height: 13rem">
+                    <div class=" card-body">
+                        <h5 class="card-title">Hotel Simulatie</h5>
+                        <p class="card-text">Programming a hotel simulation.</p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalHotel">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="social-media" class="container-fluid p-4">
+        <div class="container text-white">
+            <h4 class="text-warning">Social Media</h4>
+            <h1 class="m-heading">Connect with me</h1>
+            <div class="row pt-5">
+                <div class="col-3  mb-2 media_link btn" href="#">
+                    <div class="col-6 d-flex align-items-center">
+                        <a class="fab fa-linkedin-in fa-2x text-secondary"
+                            href="https://www.linkedin.com/in/stephanvanzwienen/" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="col-3 mb-2 media_link btn" href="#">
+                    <div class="col-6 d-flex align-items-center">
+                        <a class="fab fa-github fa-2x text-secondary" href="https://github.com/stephanvanzwienen" target="_blank"></a>
+                    </div>
+                </div>
+                <div id="Copy" data-toggle="tooltip" title="Copy mail adress" class="col-3 mb-2 media_link btn"
+                    onmouseout="outFunc()" href="#">
+                    <div class="col-6 d-flex align-items-center">
+                        <a class="fas fa-envelope fa-2x text-secondary"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div carouselComponents="carouselComponents/biboz.html"></div>
+    <div carouselComponents="carouselComponents/hotel.html"></div>
+    <div carouselComponents="carouselComponents/parking.html"></div>
+    <div carouselComponents="carouselComponents/webshop.html"></div>
+    <div carouselComponents="carouselComponents/escaperoom.html"></div>
+
+    <script src="./javascript/copy-mail-adress.js"></script>
+    <script src="./javascript/download-resume.js"></script>    
+
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+            <h5>Copyright &copy; 2020| <a href="" class="text-white">Bo Grandadam</a></h5>
+        </div>
+    </footer>
+</body>
+
+</html>
