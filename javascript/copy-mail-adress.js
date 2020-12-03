@@ -16,7 +16,7 @@ function copyMailToClipboard(value) {
       .tooltip("show");
   }
   document.querySelector("#Copy").onclick = function () {
-    copyMailToClipboard("stephanvanzwienen@gmail.com");
+    copyMailToClipboard("grandadambo@gmail.com");
   };
   document.querySelector("#Copy").onmouseout = function () {
     $('[data-toggle="tooltip"]')
